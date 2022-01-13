@@ -1,0 +1,31 @@
+.Header {
+      position: sticky;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 100;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      background-color: hsl(212, 100%, 25%);
+
+      &__left,
+      &__middle,
+      &__right {
+            height: inherit;
+      }
+}
+
+.Drawer__Toggle {
+      height: 100%;
+      width: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & > i {
+            color: white;
+            font-size: x-large;
+            cursor: pointer;
+      }
+}

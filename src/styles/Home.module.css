@@ -1,0 +1,25 @@
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* margin: auto; */
+      /* width: 60%; */
+}
+
+.Home__heading {
+      /* display: flex; */
+      /* justify-content: center; */
+      margin-top: 25px;
+      margin-bottom: 15px;
+}
+
+.Home__heading > span {
+      font-size: 1.75rem;
+      color: hsl(212, 100%, 25%);
+}
+
+.Home__heading > span:last-child {
+      font-weight: 800;
+      margin-left: 5px;
+}

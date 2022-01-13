@@ -1,0 +1,78 @@
+@use "../../styles/mixins" as *;
+
+.Tabs {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      overflow: hidden;
+      overflow-x: auto;
+      flex-wrap: wrap;
+      white-space: nowrap;
+
+      ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            @include media-query(small) {
+                  flex-grow: 1;
+                  flex-shrink: 0;
+            }
+      }
+
+      li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0.2em 0;
+
+            @include media-query(small) {
+                  margin: 0 0.2em;
+
+                  &::after {
+                        font-family: "Font Awesome 5 Free";
+                        color: hsl(70, 100%, 29%);
+                        content: "\f0d7";
+                        font-weight: 800;
+                        margin-top: -10px;
+                        visibility: hidden;
+                  }
+            }
+
+            &.isActive {
+                  a {
+                        background-color: #fff;
+                        color: hsl(70, 100%, 29%);
+                        border: 3px solid hsl(70, 100%, 29%);
+                  }
+                  &::after {
+                        visibility: visible;
+                  }
+            }
+      }
+      a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: hsl(70, 100%, 29%);
+            width: 220px;
+            vertical-align: top;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            border: 3px solid transparent;
+
+            @include media-query(small) {
+                  &:hover {
+                        background-color: #fff;
+                        color: hsl(70, 100%, 29%);
+                        border: 3px solid hsl(70, 100%, 29%);
+                  }
+            }
+      }
+}
