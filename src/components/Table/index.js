@@ -1,23 +1,54 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import JsonData from "../../data/data.json";
 import TableRow from "./components/TableRow";
 import classes from "./_table.module.scss";
 
 export default function Table({ eventType }) {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(JsonData.campaigns);
 
-    useEffect(() => {
-        const json = JsonData.campaigns[0];
-        if (eventType === "UPCOMING") {
-            setData(json.upcoming_campaigns);
+    const getCurrentDate = () => {
+        let today = new Date();
+        let dd = String(today.getDate()).padStart(2, "0"); // Days Are 1 Indexed
+        let mm = String(today.getMonth() + 1).padStart(2, "0"); // Months are 0 Indexed!
+        let yyyy = today.getFullYear();
+        return `${mm}-${dd}-${yyyy}`;
+    };
+
+    const dateComparator = (start, end) => {
+        if (end === "") return start;
+        const date1 = new Date(start);
+        const date2 = new Date(end);
+
+        // One day in milliseconds
+        const oneDay = 1000 * 60 * 60 * 24;
+
+        // Calculating the time difference between two dates
+        const diffInTime = date2.getTime() - date1.getTime();
+
+        // Calculating the no. of days between two dates
+        const diffInDays = Math.ceil(diffInTime / oneDay);
+
+        return diffInDays;
+    };
+
+    const renderDataAccordingToEventType = () => {
+        const output = [];
+        for (let d of data) {
+            if (eventType === "UPCOMING") {
+                if (dateComparator(getCurrentDate(), d.meta.date) > 0) output.push(d);
+            }
+
+            if (eventType === "LIVE") {
+                if (dateComparator(getCurrentDate(), d.meta.date) === getCurrentDate())
+                    output.push(d);
+            }
+
+            if (eventType === "PAST") {
+                if (dateComparator(getCurrentDate(), d.meta.date) < 0) output.push(d);
+            }
         }
-        if (eventType === "LIVE") {
-            setData(json.live_campaigns);
-        }
-        if (eventType === "PAST") {
-            setData(json.past_campaigns);
-        }
-    }, [eventType]);
+        return output;
+    };
 
     const modifyEvent = (id, itemAttributes) => {
         let index = data.findIndex((x) => x.id === id);
@@ -29,7 +60,7 @@ export default function Table({ eventType }) {
     };
 
     const renderTableRows = () => {
-        return data.map((el) => {
+        return renderDataAccordingToEventType().map((el) => {
             return (
                 <TableRow
                     key={el.id}
@@ -60,4 +91,3 @@ export default function Table({ eventType }) {
         </div>
     );
 }
-

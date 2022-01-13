@@ -1,177 +1,171 @@
 {
       "campaigns": [
             {
-                  "upcoming_campaigns": [
-                        {
-                              "id": "C01",
-                              "meta": {
-                                    "name": "American Apparel Gets To The Point Fast",
-                                    "date": "01-30-2022",
-                                    "stadium": "Australia"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-49-2.png"
-                              }
-                        },
-                        {
-                              "id": "C02",
-                              "meta": {
-                                    "name": "Aegean Shows Appreciation",
-                                    "date": "01-28-2022",
-                                    "stadium": "Argentina"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-50-2.png"
-                              }
-                        },
-                        {
-                              "id": "C03",
-                              "meta": {
-                                    "name": "Kate Spade Sells Its Sales",
-                                    "date": "01-23-2022",
-                                    "stadium": "Belgium, Belarus"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-51.png"
-                              }
-                        },
-                        {
-                              "id": "C04",
-                              "meta": {
-                                    "name": "IKEA Takes a Big Step",
-                                    "date": "01-20-2022",
-                                    "stadium": "Bolivia"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-52.png"
-                              }
-                        },
-                        {
-                              "id": "C05",
-                              "meta": {
-                                    "name": "Twix Makes a Dream Come True",
-                                    "date": "01-18-2022",
-                                    "stadium": "Brazil, Bulgaria, Canada"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-13.jpeg"
-                              }
-                        }
-                  ],
-                  "live_campaigns": [
-                        {
-                              "id": "C06",
-                              "meta": {
-                                    "name": "Nest Bedding Aims Low",
-                                    "date": "",
-                                    "stadium": "Chile, China"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-14.jpeg"
-                              }
-                        },
-                        {
-                              "id": "C07",
-                              "meta": {
-                                    "name": "Domino’s Makes Clever Marketing ",
-                                    "date": "",
-                                    "stadium": "Colombia, Costa Rica, Croatia"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-53.png"
-                              }
-                        },
-                        {
-                              "id": "C08",
-                              "meta": {
-                                    "name": "Brewdog Raises Awareness for Drunk Driving",
-                                    "date": "",
-                                    "stadium": "Czechia (Czech Republic), Denmark"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-15.jpeg"
-                              }
-                        },
-                        {
-                              "id": "C09",
-                              "meta": {
-                                    "name": "Kellogg’s Aims at Transparency",
-                                    "date": "",
-                                    "stadium": "Finland, France"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/kellogs.jpg"
-                              }
-                        },
-                        {
-                              "id": "C010",
-                              "meta": {
-                                    "name": "Burger King Gets Inspired by Stereotypes",
-                                    "date": "",
-                                    "stadium": "Germany, Greece, Guatemala"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-10.jpeg"
-                              }
-                        }
-                  ],
-                  "past_campaigns": [
-                        {
-                              "id": "C011",
-                              "meta": {
-                                    "name": "Spotify Gets Creative with Memes",
-                                    "date": "03-01-2021",
-                                    "stadium": "Hungary"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/spotify-everywhere-pr-asset_04.jpg"
-                              }
-                        },
-                        {
-                              "id": "C012",
-                              "meta": {
-                                    "name": "Lego Makes Braille Fun",
-                                    "date": "02-25-2021",
-                                    "stadium": "Iceland, India"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-48-2.png"
-                              }
-                        },
-                        {
-                              "id": "C013",
-                              "meta": {
-                                    "name": "Coca Cola Encourages Positivity",
-                                    "date": "02-19-2021",
-                                    "stadium": "Indonesia, Ireland"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-16.jpeg"
-                              }
-                        },
-                        {
-                              "id": "C014",
-                              "meta": {
-                                    "name": "McDonald’s takes advantage of late-night cravings",
-                                    "date": "02-16-2021",
-                                    "stadium": "Israel, Italy"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-17.jpeg"
-                              }
-                        },
-                        {
-                              "id": "C015",
-                              "meta": {
-                                    "name": "Corona Cares for the Environment",
-                                    "date": "01-15-2021",
-                                    "stadium": "Japan, Jordan, Kyrgyzstan"
-                              },
-                              "images": {
-                                    "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-12.jpeg"
-                              }
-                        }
-                  ]
+                  "id": "C01",
+                  "meta": {
+                        "name": "American Apparel Gets To The Point Fast",
+                        "date": "01-30-2022",
+                        "stadium": "Australia"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-49-2.png"
+                  }
+            },
+            {
+                  "id": "C02",
+                  "meta": {
+                        "name": "Aegean Shows Appreciation",
+                        "date": "01-28-2022",
+                        "stadium": "Argentina"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-50-2.png"
+                  }
+            },
+            {
+                  "id": "C03",
+                  "meta": {
+                        "name": "Kate Spade Sells Its Sales",
+                        "date": "01-23-2022",
+                        "stadium": "Belgium, Belarus"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-51.png"
+                  }
+            },
+            {
+                  "id": "C04",
+                  "meta": {
+                        "name": "IKEA Takes a Big Step",
+                        "date": "01-20-2022",
+                        "stadium": "Bolivia"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-52.png"
+                  }
+            },
+            {
+                  "id": "C05",
+                  "meta": {
+                        "name": "Twix Makes a Dream Come True",
+                        "date": "01-18-2022",
+                        "stadium": "Brazil, Bulgaria, Canada"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-13.jpeg"
+                  }
+            },
+
+            {
+                  "id": "C06",
+                  "meta": {
+                        "name": "Nest Bedding Aims Low",
+                        "date": "",
+                        "stadium": "Chile, China"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-14.jpeg"
+                  }
+            },
+            {
+                  "id": "C07",
+                  "meta": {
+                        "name": "Domino’s Makes Clever Marketing ",
+                        "date": "",
+                        "stadium": "Colombia, Costa Rica, Croatia"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-53.png"
+                  }
+            },
+            {
+                  "id": "C08",
+                  "meta": {
+                        "name": "Brewdog Raises Awareness for Drunk Driving",
+                        "date": "",
+                        "stadium": "Czechia (Czech Republic), Denmark"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-15.jpeg"
+                  }
+            },
+            {
+                  "id": "C09",
+                  "meta": {
+                        "name": "Kellogg’s Aims at Transparency",
+                        "date": "",
+                        "stadium": "Finland, France"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/kellogs.jpg"
+                  }
+            },
+            {
+                  "id": "C010",
+                  "meta": {
+                        "name": "Burger King Gets Inspired by Stereotypes",
+                        "date": "",
+                        "stadium": "Germany, Greece, Guatemala"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-10.jpeg"
+                  }
+            },
+
+            {
+                  "id": "C011",
+                  "meta": {
+                        "name": "Spotify Gets Creative with Memes",
+                        "date": "03-01-2021",
+                        "stadium": "Hungary"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/spotify-everywhere-pr-asset_04.jpg"
+                  }
+            },
+            {
+                  "id": "C012",
+                  "meta": {
+                        "name": "Lego Makes Braille Fun",
+                        "date": "02-25-2021",
+                        "stadium": "Iceland, India"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-48-2.png"
+                  }
+            },
+            {
+                  "id": "C013",
+                  "meta": {
+                        "name": "Coca Cola Encourages Positivity",
+                        "date": "02-19-2021",
+                        "stadium": "Indonesia, Ireland"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-16.jpeg"
+                  }
+            },
+            {
+                  "id": "C014",
+                  "meta": {
+                        "name": "McDonald’s takes advantage of late-night cravings",
+                        "date": "02-16-2021",
+                        "stadium": "Israel, Italy"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-17.jpeg"
+                  }
+            },
+            {
+                  "id": "C015",
+                  "meta": {
+                        "name": "Corona Cares for the Environment",
+                        "date": "01-15-2021",
+                        "stadium": "Japan, Jordan, Kyrgyzstan"
+                  },
+                  "images": {
+                        "crest": "https://1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/word-image-12.jpeg"
+                  }
             }
       ]
 }
